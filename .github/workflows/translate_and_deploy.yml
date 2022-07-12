@@ -30,7 +30,7 @@ jobs:
       - name: Sync Translations
         run: npm run crowdin:sync
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
         
@@ -38,7 +38,6 @@ jobs:
         run: |
           git config --global user.email "ada.pi.org@gmail.com"
           git config --global user.name "ada-pi-machine"
-          GIT_USER=ada-pi-machine GIT_PASS=${{ secrets.GITHUB_TOKEN }} npm run deploy
+          GIT_USER=ada-pi-machine GIT_PASS=${{ secrets.GH_TOKEN }} npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

@@ -36,9 +36,9 @@ jobs:
         
       - name: Build Docusaurus website
         run: |
-          git config --global user.email "ada.pi.org@gmail.com"
-          git config --global user.name "ada-pi-machine"
-          GIT_USER=ada-pi-machine GIT_PASS=${{ secrets.GITHUB_TOKEN }} npm run deploy
+          git config --global user.email "dani@kedarastudios.com"
+          git config --global user.name "rekuenkdr"
+          GIT_USER=rekuenkdr GIT_PASS=${{ secrets.GITHUB_TOKEN }} npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

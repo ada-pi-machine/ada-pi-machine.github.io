@@ -2,5 +2,5 @@ import React from 'react';
 import  { Redirect } from 'react-router-dom';
 
 export default function Home() {
-  return <Redirect to='ada-pi-machine.github.io/docs/' />;
+  return <Redirect to='/docs/' />;
 }

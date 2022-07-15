@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: 'throw', // Change this to 'throw' for production CI pipelines
   onBrokenMarkdownLinks: 'throw', 
   favicon: 'img/armada-alliance-logo.png',
-  organizationName: 'armada-alliance', // Change this to your GitHub org/user name.
-  projectName: 'armada-alliance-docusaurus', // Change this to your repo name.
+  organizationName: 'ada-pi-machine', // Change this to your GitHub org/user name.
+  projectName: 'ada-pi-machine.github.io', // Change this to your repo name.
   i18n: {  // We are using crowdin to translate the site https://docusaurus.io/docs/i18n/crowdin
     defaultLocale: 'en',
     locales: ['en'], // Add locales, run locales and translate https://docusaurus.io/docs/i18n/tutorial

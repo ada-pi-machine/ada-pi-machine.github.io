@@ -9,6 +9,7 @@ module.exports = {
   favicon: 'img/armada-alliance-logo.png',
   organizationName: 'ada-pi-machine', // Change this to your GitHub org/user name.
   projectName: 'ada-pi-machine.github.io', // Change this to your repo name.
+  deploymentBranch: 'gh-pages',
   i18n: {  // We are using crowdin to translate the site https://docusaurus.io/docs/i18n/crowdin
     defaultLocale: 'en',
     locales: ['en'], // Add locales, run locales and translate https://docusaurus.io/docs/i18n/tutorial
